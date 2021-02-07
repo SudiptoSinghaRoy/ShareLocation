@@ -4,6 +4,8 @@
 * [Ruby 2.7.2]
 * [Rails 6.1.1]
 * [Postgres]
+* [Node 12.19.0]
+* npm 6.14.8
 
 ### About the project
 This project is about sharing location in the map. A user need to login first. Then the user will be landing in his dashboard, where he can see the user list and a map.
@@ -32,6 +34,7 @@ $ bundle install
 $ rake db:create
 $ rake db:migrate
 $ rake db:seed
+$ npm install
 ```
  - A seed file is already present having five users and some share locations of them
 
@@ -61,3 +64,4 @@ Hope you will enjoy   :)
 [Ruby 2.7.2]: <https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/>
 [Rails 6.1.1]: <https://weblog.rubyonrails.org/2021/1/7/Rails-6-1-1-has-been-released/>
 [Postgres]: <https://www.postgresql.org/>
+[Node 12.19.0]: <https://nodejs.org/uk/blog/release/v12.19.0/>
