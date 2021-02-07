@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+git_source(:github) { |repo| "https://github.com/SudiptoSinghaRoy/ShareLocation.git" }
 
 ruby '2.7.2'
 
@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # Using thin server
-gem 'thin'
+# gem 'thin'
 
 # Using devise for authentication
 gem 'devise'
