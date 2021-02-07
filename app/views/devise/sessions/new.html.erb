@@ -1,0 +1,32 @@
+
+  <%= devise_error_messages! %>
+  <% flash.each do |key, value| %>
+    <div class="alert alert-danger alert-dismissible fade show <%= key %>" role="alert"><%= value %>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  <% end %>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <div class="fadeIn first">
+      <img src="../images/user_icon.png" id="icon" alt="User Icon"/>
+    </div>
+
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <%= f.text_field :login, autofocus: true, placeholder: "Username or Email", class:"fadeIn second" %>
+        <%= f.password_field :password, autocomplete: "current-password", placeholder: "Password", class:"fadeIn third" %>
+        <%= f.submit "Log in",  class:"fadeIn fourth"%>
+    <% end %>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $(".alert-danger").fadeTo(2000, 500).slideUp(500, function(){
+      $(".alert-danger").slideUp(500);
+    });
+  });
+</script>
+

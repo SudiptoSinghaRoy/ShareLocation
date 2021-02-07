@@ -1,0 +1,162 @@
+.map {
+    height: 600px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 280px;
+}
+
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+
+.ol-popup-closer:after {
+    content: "✖";
+}
+
+#save-popup-content{
+    height: 150px;
+}
+
+.welcome-note{
+    margin-right: 20px;
+    color: antiquewhite !important;
+}
+
+.heading{
+    font-size: larger;
+    color: beige;
+}
+
+.table-fixed tbody {
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(39, 40, 46) rgb(107, 103, 96);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(39, 40, 46);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:rgb(39, 40, 46);
+    border-radius: 20px;
+    border: 3px solid  rgb(107, 103, 96);
+  }
+
+  .view-btn{
+      height: 49.6px;
+  }
+
+  .need-height{
+      height: 74px;
+  }
+
+  .second-header{
+    width: 117px;
+  }
+
+  .third-header{
+    width: 158px;
+  }
+
+  .fourth-header{
+    width: 160px;
+  }
+
+  .need-width{
+    width: 473px;
+  }
+
+  .search-input{
+    width: 98%;
+  }
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .img_desc{
+    width: 3%;
+  }
+
+  .desc{
+    margin-left: 5%;
+  }
+
+  .desc-div{
+    position:absolute;
+    bottom: -32px;
+  }
+
+  .note{
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  

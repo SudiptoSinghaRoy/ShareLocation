@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Share Location</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <link rel="stylesheet" href='../stylesheets/login.css'>
+
+    <script src='../javascripts/jquery-3.5.1.min.js'></script>
+    <script src='../javascripts/popper.min.js'></script>
+    <script src='../javascripts/bootstrap.min.js'></script>
+    <%= javascript_pack_tag 'application' %>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark navbar-expand bg-dark justify-content-between">
+      <div class="container-fluid">
+          <ul class="navbar-nav">
+              <li class="nav-item text-center">
+                  <h3 class="text-light">Share Location</h3>
+              </li>
+          </ul>
+      </div>
+    </nav>
+    <%= yield %>
+  </body>
+</html>
