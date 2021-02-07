@@ -20,7 +20,7 @@ In desire user page the same navigation bar present, having "<username> Sharing"
 
 ### How to run the project
 
- - Clone the project from 
+ - Clone the project from  <https://github.com/SudiptoSinghaRoy/ShareLocation.git> to your location
  - Run the terminal from your project location
  - Now run 
 ```sh
